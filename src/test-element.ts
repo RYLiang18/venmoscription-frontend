@@ -1,4 +1,6 @@
-import '@shoelace-style/shoelace/dist/shoelace.js';
+import '@shoelace-style/shoelace/dist/components/badge/badge.js';
+import '@shoelace-style/shoelace/dist/components/button/button.js';
+import '@shoelace-style/shoelace/dist/themes/light.css';
 
 import { LitElement, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
@@ -7,8 +9,9 @@ import { customElement } from 'lit/decorators.js';
 export class TestElement extends LitElement {
   render() {
     return html`
-      <sl-button variant="primary">Bruh</sl-button>
-      <sl-alert>Bruhhhh</sl-alert>
+      <h1>Login</h1>
+
+      <sl-button>Login</sl-button>
     `;
   }
 }
